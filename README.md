@@ -27,8 +27,6 @@ Credit
 This work is heavily based on the Semantic Versioning specification as authored by [Tom
 Preston-Werner](http://tom.preston-werner.com).
 
-[__PageA__](semverdoc.md)
-
 License
 -------
 Creative Commons - CC BY 3.0
