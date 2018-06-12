@@ -2,4 +2,5 @@ theme: jekyll-theme-minimal
 
 navbar-links:
   View the project page on github: "https://github.com/nils-tekampe/semverdoc"
-  View the specification: "semverdoc.md"
+  View the specification: "semverdoc"
+
