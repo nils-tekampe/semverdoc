@@ -23,7 +23,12 @@ If you’d like to leave feedback, please open an issue on [github](https://gith
 If you'd like to contribute, please consider starting a Pull Request. 
 
 Credit
------
+-------
 This work is heavily based on the Semantic Versioning specification as authored by [Tom
-Preston-Werner](http://tom.preston-werner.com), inventor of Gravatar and
-cofounder of GitHub.
+Preston-Werner](http://tom.preston-werner.com).
+
+
+License
+-------
+Creative Commons - CC BY 3.0
+http://creativecommons.org/licenses/by/3.0/
