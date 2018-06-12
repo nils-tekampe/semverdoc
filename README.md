@@ -16,10 +16,11 @@ Given a version number MAJOR.MINOR.PATCH, increment the:
 Additional labels for pre-release and build metadata are available as extensions
 to the MAJOR.MINOR.PATCH format.
 
-For more details you can find the specification [here](https://guides.github.com/features/mastering-markdown/).
+For more details you can find the latest specification [here](https://github.com/nils-tekampe/semverdoc/blob/master/semverdoc.md).
 
 ### Contributions or comments
-
+If you’d like to leave feedback, please open an issue on [github](https://github.com/nils-tekampe/semverdoc/issues).
+If you'd like to contribute, please consider starting a Pull Request. 
 
 Credit
 -----
