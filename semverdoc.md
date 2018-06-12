@@ -13,15 +13,7 @@ Given a version number MAJOR.MINOR.PATCH, increment the:
 Additional labels for pre-release and build metadata are available as extensions
 to the MAJOR.MINOR.PATCH format.
 
-Introduction
-------------
-
-In often work with documents that require proper versioning. In the past I have often used or recommended using the semantic versioning scheme knowing that the scheme has actually been developed for software development. While it is possible to apply the semantic versioning to documents, some of its characteristics need to be adopted. 
-
-While I often simply ignored the need for this adoption in the past, I finally found the time to rework the semver specification for use with documents. 
-
-
-Semantic Versioning Specification for Documentaion (DocSemVer)
+Semantic Versioning Specification for Documents (SemVerDoc)
 --------------------------------------------------------------
 
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD",
