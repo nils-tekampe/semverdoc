@@ -1,6 +1,5 @@
 theme: jekyll-theme-cayman
 
-navbar-links:
-  View the project page on github: "https://github.com/nils-tekampe/semverdoc"
-  View the specification: "semverdoc"
-
+github:
+  zip_url: http://example.com/download.zip
+  The specification: semverdoc
