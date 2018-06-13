@@ -5,8 +5,8 @@ I often work with documents that require proper versioning and version control. 
 
 While I often simply ignored the need for this adoption in the past, I finally found the time to rework the semver specification for use with documents. 
 
-Summary
--------
+Semantic Versioning for Documents
+---------------------------------
 
 Given a version number MAJOR.MINOR.PATCH, increment the:
 
