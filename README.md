@@ -1,5 +1,5 @@
-Semantic Versioning for Documents and meaningful version control 
-================================================================
+Semantic Versioning for Documents and Meaningful Manual Version Control 
+=======================================================================
 
 I often work with documents that require proper versioning and version control. In the past I have often used or recommended using the [semantic versioning scheme](http://semver.org) knowing that the scheme has actually been developed for software development. While it is possible to apply the semantic versioning to documents, some of its characteristics need to be adopted. 
 
