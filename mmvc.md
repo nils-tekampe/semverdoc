@@ -19,7 +19,7 @@ Meaningful Manual Version Control (MMVC)
 1. The NAME part of the FILE SHALL uniquely identify the document within the folder. 
 1. The VERSION part of the filename SHALL follow the semantic versioning scheme. The VERSION part may be headed by the letter „V“ in order to indicate the following version information. 
 1. The .EXTENSION part of the filename may also be empty. 
-1. Each folder also contains a subfolder named „old“ that stores previous versions of the documents. 
+1. Each FOLDER also contains a subfolder named „old“ that stores previous versions of the documents. 
 1. At any time, FOLDER SHALL only contain the latest version of a document. All preceding versions SHALL reside within the „old“ folder. 
 1. Creating a new version of a DOCUMENT SHALL follow the following process:
 	1.  A copy of DOCUMENT is created within FOLDER. 
