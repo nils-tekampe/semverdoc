@@ -15,7 +15,7 @@ Given a version number MAJOR.MINOR.PATCH, increment the:
 
 Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
 
-For more details you can find the latest specification [here](https://github.com/nils-tekampe/semverdoc/blob/master/semverdoc.md).
+For more details you can find the latest specification [here](semverdoc.md).
 
 Meaningful Manual Version Control (MMVC)
 ------------------------------------
