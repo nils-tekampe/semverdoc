@@ -14,7 +14,7 @@ The following assumptions are taken in the rest of this document
 Meaningful Manual Version Control (MMVC)
 ----------------------------------------
 
-1. Each document under version control resides in a FOLDER. A folder may contain multiple documents under version control but the number of documents within a folder SHOULD be limited to limit the complexity. 
+1. Each document under version control is represented by a FILE that resides in a FOLDER. A folder may contain multiple documents under version control but the number of documents within a folder SHOULD be limited to limit the complexity. 
 1. Each document name comprises the elements NAME\_VERSION\_.EXTENSION. The elements of the document name are separate by the use of the underscore ([ASCII](https://en.wikipedia.org/wiki/ASCII) Code 95)
 1. The NAME part of the document SHALL uniquely identify the document within the folder. 
 1. The VERSION part of the filename SHALL follow the semantic versioning scheme. The VERSION part may be headed by the letter „V“ in order to indicate the following version information. 
