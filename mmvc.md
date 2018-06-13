@@ -42,3 +42,7 @@ The following shows a typical example of a folder structure that develops when u
 	│   └── specification_V9.0.0.txt
 	└── specification_V1.0.1.txt
   ```
+License
+-------
+Creative Commons - CC BY 3.0 
+http://creativecommons.org/licenses/by/3.0/
