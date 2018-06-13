@@ -1,4 +1,4 @@
-Meaningful Manual Version Control Version 1.0.0
+Meaningful Manual Version Control Version 1.1.0
 ================================================
 Keeping documents under automatic version control is not always possible or desired. Sometimes, it is unavoidable to implement version control of documents in a manual manner. 
 This specification summaries an approach that has been widely used for many years. 
