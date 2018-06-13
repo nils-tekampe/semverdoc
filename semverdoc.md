@@ -1,4 +1,4 @@
-Semantic Versioning for Documents 0.9.0
+Semantic Versioning for Documents 1.0.0
 =======================================
 
 Summary
@@ -23,24 +23,21 @@ interpreted as described in [RFC 2119](http://tools.ietf.org/html/rfc2119).
 1. This scheme describes versioning for documents. In accordance with wikipedia, a document is hereby defined as a written, drawn, presented, or memorialized representation of thought.
 
 1. A normal version number of each document MUST take the form X.Y.Z where X, Y, and Z are
-non-negative integers, and MUST NOT contain leading zeroes. X is the
-major version, Y is the minor version, and Z is the patch version.
+non-negative integers, and MUST NOT contain leading zeroes. X is the major version, Y is the minor version, and Z is the patch version.
 Each element MUST increase numerically. For instance: 1.9.0 -> 1.10.0 -> 1.11.0.
 
 1. Once a versioned document has been released, the contents of that version
 MUST NOT be modified. Any modifications MUST be released as a new version.
 
-1. Major version zero (0.y.z) is for initial development, brainstorming and prototyping. Anything MAY changeat any time. The document SHOULD NOT be considered stable.
+1. Major version zero (0.y.z) is for initial development, brainstorming and prototyping. Anything MAY change at any time. The document SHOULD NOT be considered stable.
 
-1. Version 1.0.0 defines a final document. The way in which the version number
-is incremented after this release is dependent on its changes.
+1. Version 1.0.0 defines a final document. The way in which the version number is incremented after this release is dependent on its changes.
 
-1. Patch version Z (x.y.Z | x > 0) MUST be incremented if only minor bug fixes are introduced. A bug fix is defined as an internal change that fixes incorrect behavior. A classical example for a bug fix in a document is the correction of a typo or a minor inconsistency. 
+1. Patch version Z (x.y.Z | x > 0) MUST be incremented if only minor bug fixes are introduced. A bug fix is defined as a  change that fixes incorrect behavior. A classical example for a bug fix in a document is the correction of a typo or a minor inconsistency. 
 
 1. Minor version Y (x.Y.z | x > 0) MUST be incremented if new information is introduced to the document or if information is removed from the document. Changes that lead to an increased minor version should typically be limited to certain areas of the document. 
 
-1. Major version X (X.y.z | X > 0) MUST be incremented if the document has encountered significant changes. The definition of significant changes depends on the concrete use case and is beyond the scope of this specification. Typical examples of a significant change include major, structural changes to the document and changes that affect wide parts of the document. A major version may also be incremented in order to indicate that a project that a document is part of entered another stage. Patch and minor version MUST be reset to 0 when major
-version is incremented.
+1. Major version X (X.y.z | X > 0) MUST be incremented if the document has encountered significant changes. The definition of significant changes depends on the concrete use case and is beyond the scope of this specification. Typical examples of a significant change include major structural changes to the document and changes that affect wide parts of the document. A major version may also be incremented in order to indicate that a project that a document is part of entered another stage. Patch and minor version MUST be reset to 0 when major version is incremented.
 
 1. A pre-release version MAY be denoted by appending a hyphen and a
 series of dot separated identifiers immediately following the patch
