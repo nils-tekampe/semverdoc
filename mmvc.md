@@ -9,6 +9,7 @@ The following assumptions are taken in the rest of this document
 1. A document is a digital representation of a written, drawn, presented, or memorialized representation of thought. (Adopted from  [wikipedia](https://en.wikipedia.org/wiki/Document))
 1. Documents are maintained on a computer system.
 1. The computer systems supports the notion of [files](https://en.wikipedia.org/wiki/Computer_file) and folders. 
+1. Documents are kept on the computer system in form of files.
 
 Meaningful Manual Version Control (MMVC)
 ----------------------------------------
