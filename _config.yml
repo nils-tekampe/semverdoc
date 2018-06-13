@@ -1,3 +1,6 @@
+title: SemVerDoc
+description: Semantic Versioning for Documents
+
 theme: jekyll-theme-cayman
 
 show_downloads: true
