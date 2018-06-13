@@ -1,4 +1,5 @@
-## Semantic Versioning for Documents and meaningful version control 
+Semantic Versioning for Documents and meaningful version control 
+================================================================
 
 I often work with documents that require proper versioning and version control. In the past I have often used or recommended using the [semantic versioning scheme](http://semver.org) knowing that the scheme has actually been developed for software development. While it is possible to apply the semantic versioning to documents, some of its characteristics need to be adopted. 
 
@@ -18,10 +19,11 @@ Additional labels for pre-release and build metadata are available as extensions
 For more details you can find the latest specification [here](semverdoc.md).
 
 Meaningful Manual Version Control (MMVC)
-------------------------------------
+---------------------------------------
 In most cases, version control systems (e.g. git) are the better choice when it comes to the question, how different versions of a document should be maintained. If however - for what reason ever - a manual version control process is required, the [MMVC](mmvc.md) has proven useful over many years and many different projects. 
 
-### Contributions or comments
+Contributions or comments
+-------------------------
 If you’d like to leave feedback, please open an issue on [github](https://github.com/nils-tekampe/semverdoc/issues).
 If you'd like to contribute, please consider starting a Pull Request. 
 
