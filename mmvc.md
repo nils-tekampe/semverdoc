@@ -24,7 +24,7 @@ Meaningful Manual Version Control (MMVC)
 1. The "old" folder SHALL ONLY be used to store superseeded versions of documents. 
 1. Creating a new version of a DOCUMENT SHALL follow the following process:
 	1.  A copy of DOCUMENT is created within FOLDER. 
-	1. The VERSION part of the filename of the copy of the document is incremented according to the semantic versioning specification
+	1. The VERSION part of the filename of the copy of the document is incremented according to the semantic versioning specification.
 	1. DOCUMENT is moved to the „old“ folder. 
 
 Example
