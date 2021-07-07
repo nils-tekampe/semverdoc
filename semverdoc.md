@@ -1,4 +1,4 @@
-Semantic Versioning for Documents 1.0.0
+Semantic Versioning for Documents 1.0.1
 =======================================
 
 Summary
@@ -20,8 +20,7 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 1. This scheme describes versioning for documents. In accordance with wikipedia, a document is hereby defined as a written, drawn, presented, or memorialized representation of thought.
 
-1. A normal version number of each document MUST take the form X.Y.Z where X, Y, and Z are
-non-negative integers, and MUST NOT contain leading zeroes. X is the major version, Y is the minor version, and Z is the patch version. Each element MUST increase numerically. For instance: 1.9.0 -> 1.10.0 -> 1.11.0.
+1. A normal version number of each document MUST take the form X.Y.Z where X, Y, and Z are non-negative integers, and MUST NOT contain leading zeroes. X is the major version, Y is the minor version, and Z is the patch version. Each element MUST increase numerically. For instance: 1.9.0 -> 1.10.0 -> 1.11.0.
 
 1. Once a versioned document has been released, the contents of that version MUST NOT be modified. Any modifications MUST be released as a new version.
 
