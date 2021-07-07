@@ -1,4 +1,4 @@
-Semantic Versioning for Documents 1.0.2
+Semantic Versioning for Documents 1.1.0
 =======================================
 
 Summary
@@ -17,7 +17,7 @@ Semantic Versioning Specification for Documents (SemVerDoc)
 
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC 2119](http://tools.ietf.org/html/rfc2119).
 
-1. This scheme describes versioning for documents. In accordance with wikipedia, a document is hereby defined as a written, drawn, presented, or memorialized representation of thought.
+1. This scheme describes versioning for documents. In accordance with [Wikipedia](https://en.wikipedia.org/wiki/Document), a document is hereby defined as a written, drawn, presented, or memorialized representation of thought.
 
 1. A normal version number of each document MUST take the form X.Y.Z where X, Y, and Z are non-negative integers, and MUST NOT contain leading zeroes. X is the major version, Y is the minor version, and Z is the patch version. Each element MUST increase numerically. For instance: 1.9.0 -> 1.10.0 -> 1.11.0.
 
