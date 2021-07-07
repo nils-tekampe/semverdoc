@@ -1,4 +1,4 @@
-Semantic Versioning for Documents 1.0.0
+Semantic Versioning for Documents 1.1.0
 =======================================
 
 Summary
@@ -10,18 +10,16 @@ Given a version number MAJOR.MINOR.PATCH, increment the:
 1. MINOR version when **new information has been added to the document or information has been removed from the document**, and
 1. PATCH version when you made minor changes (**e.g. fixing typos**).
 
-Additional labels for pre-release and build metadata are available as extensions
-to the MAJOR.MINOR.PATCH format.
+Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
 
 Semantic Versioning Specification for Documents (SemVerDoc)
 --------------------------------------------------------------
 
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC 2119](http://tools.ietf.org/html/rfc2119).
 
-1. This scheme describes versioning for documents. In accordance with wikipedia, a document is hereby defined as a written, drawn, presented, or memorialized representation of thought.
+1. This scheme describes versioning for documents. In accordance with [Wikipedia](https://en.wikipedia.org/wiki/Document), a document is hereby defined as a written, drawn, presented, or memorialized representation of thought.
 
-1. A normal version number of each document MUST take the form X.Y.Z where X, Y, and Z are
-non-negative integers, and MUST NOT contain leading zeroes. X is the major version, Y is the minor version, and Z is the patch version. Each element MUST increase numerically. For instance: 1.9.0 -> 1.10.0 -> 1.11.0.
+1. A normal version number of each document MUST take the form X.Y.Z where X, Y, and Z are non-negative integers, and MUST NOT contain leading zeroes. X is the major version, Y is the minor version, and Z is the patch version. Each element MUST increase numerically. For instance: 1.9.0 -> 1.10.0 -> 1.11.0.
 
 1. Once a versioned document has been released, the contents of that version MUST NOT be modified. Any modifications MUST be released as a new version.
 
