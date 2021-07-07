@@ -1,4 +1,4 @@
-Semantic Versioning for Documents 1.1.1
+Semantic Versioning for Documents 1.2.0
 =======================================
 
 Summary
@@ -130,7 +130,7 @@ Backus–Naur Form Grammar for Valid SemVer Versions
 
 Credit
 -------
-This work is heavily based on the Semantic Versioning specification as authored by [Tom Preston-Werner](http://tom.preston-werner.com).
+This work is heavily based on the [Semantic Versioning](https://semver.org/) specification as authored by [Tom Preston-Werner](http://tom.preston-werner.com).
 
 
 License
