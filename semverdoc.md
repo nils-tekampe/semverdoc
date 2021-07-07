@@ -1,4 +1,4 @@
-Semantic Versioning for Documents 1.0.1
+Semantic Versioning for Documents 1.0.2
 =======================================
 
 Summary
@@ -10,8 +10,7 @@ Given a version number MAJOR.MINOR.PATCH, increment the:
 1. MINOR version when **new information has been added to the document or information has been removed from the document**, and
 1. PATCH version when you made minor changes (**e.g. fixing typos**).
 
-Additional labels for pre-release and build metadata are available as extensions
-to the MAJOR.MINOR.PATCH format.
+Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
 
 Semantic Versioning Specification for Documents (SemVerDoc)
 --------------------------------------------------------------
