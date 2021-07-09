@@ -1,4 +1,4 @@
-Semantic Versioning for Documents 1.0.0
+Semantic Versioning for Documents 1.2.0
 =======================================
 
 Summary
@@ -10,18 +10,16 @@ Given a version number MAJOR.MINOR.PATCH, increment the:
 1. MINOR version when **new information has been added to the document or information has been removed from the document**, and
 1. PATCH version when you made minor changes (**e.g. fixing typos**).
 
-Additional labels for pre-release and build metadata are available as extensions
-to the MAJOR.MINOR.PATCH format.
+Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
 
 Semantic Versioning Specification for Documents (SemVerDoc)
 --------------------------------------------------------------
 
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC 2119](http://tools.ietf.org/html/rfc2119).
 
-1. This scheme describes versioning for documents. In accordance with wikipedia, a document is hereby defined as a written, drawn, presented, or memorialized representation of thought.
+1. This scheme describes versioning for documents. In accordance with [Wikipedia](https://en.wikipedia.org/wiki/Document), a document is hereby defined as a written, drawn, presented, or memorialized representation of thought.
 
-1. A normal version number of each document MUST take the form X.Y.Z where X, Y, and Z are
-non-negative integers, and MUST NOT contain leading zeroes. X is the major version, Y is the minor version, and Z is the patch version. Each element MUST increase numerically. For instance: 1.9.0 -> 1.10.0 -> 1.11.0.
+1. A normal version number of each document MUST take the form X.Y.Z where X, Y, and Z are non-negative integers, and MUST NOT contain leading zeroes. X is the major version, Y is the minor version, and Z is the patch version. Each element MUST increase numerically. For instance: 1.9.0 -> 1.10.0 -> 1.11.0.
 
 1. Once a versioned document has been released, the contents of that version MUST NOT be modified. Any modifications MUST be released as a new version.
 
@@ -39,7 +37,29 @@ non-negative integers, and MUST NOT contain leading zeroes. X is the major versi
 
 1. For documents that are automatically generated, build metadata MAY be denoted by appending a plus sign and a series of dot separated identifiers immediately following the patch or pre-release version. Identifiers MUST comprise only ASCII alphanumerics and hyphen [0-9A-Za-z-]. Identifiers MUST NOT be empty. Build metadata MUST be ignored when determining version precedence. Thus two versions that differ only in the build metadata, have the same precedence. Examples: 1.0.0-alpha+001, 1.0.0+20130313144700, 1.0.0-beta+exp.sha.5114f85.
 
-1. Precedence refers to how versions are compared to each other when ordered. Precedence MUST be calculated by separating the version into major, minor, patch and pre-release identifiers in that order (Build metadata does not figure into precedence). Precedence is determined by the first difference when comparing each of these identifiers from left to right as follows: Major, minor, and patch versions are always compared numerically. Example: 1.0.0 < 2.0.0 < 2.1.0 < 2.1.1. When major, minor, and patch are equal, a pre-release version has lower precedence than a normal version. Example: 1.0.0-alpha < 1.0.0. Precedence for two pre-release versions with the same major, minor, and patch version MUST be determined by comparing each dot separated identifier from left to right until a difference is found as follows: identifiers consisting of only digits are compared numerically and identifiers with letters or hyphens are compared lexically in ASCII sort order. Numeric identifiers always have lower precedence than non-numeric identifiers. A larger set of pre-release fields has a higher precedence than a smaller set, if all of the preceding identifiers are equal. Example: 1.0.0-alpha < 1.0.0-alpha.1 < 1.0.0-alpha.beta < 1.0.0-beta < 1.0.0-beta.2 < 1.0.0-beta.11 < 1.0.0-rc.1 < 1.0.0.
+1. Precedence refers to how versions are compared to each other when ordered.
+
+   1. Precedence MUST be calculated by separating the version into major, minor, patch and pre-release identifiers in that order (Build metadata does not figure into precedence).
+
+   1. Precedence is determined by the first difference when comparing each of these identifiers from left to right as follows: Major, minor, and patch versions are always compared numerically.
+
+      Example: 1.0.0 < 2.0.0 < 2.1.0 < 2.1.1.
+
+   1. When major, minor, and patch are equal, a pre-release version has lower precedence than a normal version:
+
+      Example: 1.0.0-alpha < 1.0.0.
+
+   1. Precedence for two pre-release versions with the same major, minor, and patch version MUST be determined by comparing each dot separated identifier from left to right until a difference is found as follows:
+
+      1. Identifiers consisting of only digits are compared numerically.
+
+      1. Identifiers with letters or hyphens are compared lexically in ASCII sort order.
+
+      1. Numeric identifiers always have lower precedence than non-numeric identifiers.
+
+      1. A larger set of pre-release fields has a higher precedence than a smaller set, if all of the preceding identifiers are equal.
+
+      Example: 1.0.0-alpha < 1.0.0-alpha.1 < 1.0.0-alpha.beta < 1.0.0-beta < 1.0.0-beta.2 < 1.0.0-beta.11 < 1.0.0-rc.1 < 1.0.0.
 
 Backus–Naur Form Grammar for Valid SemVer Versions
 --------------------------------------------------
@@ -110,7 +130,7 @@ Backus–Naur Form Grammar for Valid SemVer Versions
 
 Credit
 -------
-This work is heavily based on the Semantic Versioning specification as authored by [Tom Preston-Werner](http://tom.preston-werner.com).
+This work is heavily based on the [Semantic Versioning](https://semver.org/) specification as authored by [Tom Preston-Werner](http://tom.preston-werner.com).
 
 
 License
